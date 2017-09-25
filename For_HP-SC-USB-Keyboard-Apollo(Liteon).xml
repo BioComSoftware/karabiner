@@ -1,0 +1,88 @@
+    <?xml version="1.0"?>
+    <root>
+    <item>
+        <name>HP-SC-LessThan_to_carat</name>
+        <identifier>private.LessThan_to_carat</identifier>
+        <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::BACKQUOTE</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::DANISH_DOLLAR</autogen>
+    </item>        
+    <item>
+        <name>HP-SC-GreaterThan_to_degree</name>
+        <identifier>private.GreaterThan_to_degree</identifier>
+        <autogen>__KeyToKey__ KeyCode::DANISH_DOLLAR, KeyCode::BACKQUOTE, ModifierFlag::SHIFT_L</autogen>
+        <autogen>__KeyToKey__ KeyCode::BACKQUOTE, KeyCode::DANISH_DOLLAR, ModifierFlag::SHIFT_L</autogen>
+    </item>        
+    <item>
+        <name>HP-SC-Pipe</name>
+        <identifier>private.pipe</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::DANISH_DOLLAR, ModifierFlag::COMMAND_R,
+        KeyCode::7, ModifierFlag::OPTION_L
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-OpenBrace</name>
+        <identifier>private.OpenBrace</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::7, ModifierFlag::COMMAND_R,
+        KeyCode::8, ModifierFlag::OPTION_L
+        </autogen>
+    </item>        
+        
+    <item>
+        <name>HP-SC-CloseBrace</name>
+        <identifier>private.CloseBrace</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::0, ModifierFlag::COMMAND_R,
+        KeyCode::9, ModifierFlag::OPTION_L,
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-OpenBracket</name>
+        <identifier>private.OpenBracket</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::8, ModifierFlag::COMMAND_R,
+        KeyCode::5, ModifierFlag::OPTION_L,
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-CloseBracket</name>
+        <identifier>private.CloseBracket</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::9, ModifierFlag::COMMAND_R,
+        KeyCode::6, ModifierFlag::OPTION_L,
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-BackSlash</name>
+        <identifier>private.BackSlash</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::MINUS, ModifierFlag::COMMAND_R,
+        KeyCode::7, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-Enje</name>
+        <identifier>private.Enje</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::BRACKET_RIGHT, ModifierFlag::COMMAND_R,
+        KeyCode::8, ModifierFlag::OPTION_L, ModifierFlag::SHIFT_L
+        </autogen>
+    </item>        
+    <item>
+        <name>HP-SC-AtSign</name>
+        <identifier>private.AtSign</identifier>
+        <autogen>
+        __KeyToKey__ 
+        KeyCode::Q, ModifierFlag::COMMAND_R,
+        KeyCode::L, ModifierFlag::OPTION_L
+        </autogen>
+    </item>        
+    </root>
